@@ -3,7 +3,21 @@
 	<head>
 		<title> Dice Roller App </title>
 	</head>
-	<body>
+	<style>
+		body
+		{
+			width: 600px;
+			margin: 10px auto;
+			background-color: blue;
+			color: white;
+		}
+		input, select
+		{
+			border-radius: 2px;
+			border: 0px; 
+		}
+	<style>
+	<body style="">
 		<h1>Dice Roller App</h1>
 		<input type="number" id="dicecount" name="dicecount" min="1" max="20">
 		<br>
@@ -16,5 +30,4 @@
 			<option> 20 Sided </option>
 		</select>
 	</body>
-
 </html>
